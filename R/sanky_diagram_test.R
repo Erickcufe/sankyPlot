@@ -20,3 +20,15 @@ p
 library(htmlwidgets)
 saveWidget(p, file=paste0( here::here(), "/sankeyEnergy.html"))
 
+
+
+URL <- paste0(
+  "https://cdn.rawgit.com/christophergandrud/networkD3/",
+  "master/JSONdata//flare.json")
+
+## Convert to list format
+Flare <- jsonlite::fromJSON(URL, simplifyDataFrame = FALSE)
+
+# Use subset of data for more readable diagram
+Flare$children = Flare$children[1:3]
+diagonalNetwork(List = Flare, fontSize = 10, opacity = 0.9)
