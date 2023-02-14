@@ -1,3 +1,3 @@
 # sankyPlot
 
-![]("sanky_snps.jpeg")
+![](sanky_snps.jpeg)
