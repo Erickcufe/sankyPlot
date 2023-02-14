@@ -1,0 +1,12 @@
+n1,n2,context,genes,Cell,Expression
+AD,rs1049673,3_prime_UTR_variant,CD36,Astrocito,None
+AD,rs13032148,regulatory_region_variant,BIN1,Microglia,Up
+AD,rs1060743,synonymous_variant,BIN1,Astrocito,Up
+AD,rs13032148,regulatory_region_variant,BIN1,Neurona,Up
+AD,rs1060743,synonymous_variant,BIN1,OPCs,Up
+AD,rs13032148,regulatory_region_variant,BIN1,Endotelio,Up
+AD,rs1060743,synonymous_variant,BIN1,Oligodendrocito,None
+AD,rs1049673,3_prime_UTR_variant,CD36,Microglia,None
+AD,rs1049673,3_prime_UTR_variant,CD36,Neurona,None
+AD,rs1049673,3_prime_UTR_variant,CD36,Oligodendrocito,None
+AD,rs1049673,3_prime_UTR_variant,CD36,Endotelio,None
